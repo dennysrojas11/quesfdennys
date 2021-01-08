@@ -12,14 +12,48 @@ html{
 body{
 }
 
-.titulo{
-    font-weight: 300;
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 20px;
+/*Estilos Header*/
+.supertitulo{
+    background: rgb(2,0,36);
+    background-image: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(43,100,224,0.554796918767507) 8%, rgba(43,100,224,1) 79%),url(img/portada.jpg);
+    width: 100%;
+    height: 723px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
 }
 
-/*Estilo Formulario*/
+.textostitulo{
+    color: white;
+    height: 723px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textostitulo h1{
+    font-size: 100px;
+}
+
+.textostitulo h2{
+    font-size: 50px;
+}
+
+.textostitulo a{
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 12px 15px 15px;
+    background:white;
+    border-radius: 8px;
+    color: #2b64e0;
+}
+
+/*Estilos Formulario*/
 
 .contacto{
     background-color: #012A82;
@@ -28,6 +62,13 @@ body{
 
 .contenedor{
     padding: 40px 0;
+}
+
+.titulo{
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .form{
@@ -74,8 +115,9 @@ input[type="submit"]:hover{
     background: white;
 }
 
-/*Estilo Footer*/
+/*Estilos Footer*/
 footer{
+    padding-top: 15px;
     background-color: #001136;
     color: #A5C5E9;
 }
