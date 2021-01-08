@@ -1,11 +1,77 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
 
-a{
-    text-decoration-color: #A5C5E9;
+html{
+    scroll-behavior: smooth;    
+}
+
+body{
+}
+
+.titulo{
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*Estilo Formulario*/
+
+.contacto{
+    background-color: #012A82;
+    color: white;
+}
+
+.contenedor{
+    padding: 40px 0;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    padding: 20px 10px;
+}
+
+.input::placeholder{
+    color: white;
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: #012A82;
+    background: white;
 }
 
 /*Estilo Footer*/
