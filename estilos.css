@@ -9,9 +9,6 @@ html{
     scroll-behavior: smooth;    
 }
 
-body{
-}
-
 /*Estilos Header*/
 .supertitulo{
     background: rgb(2,0,36);
@@ -140,14 +137,15 @@ body{
 input[type="text"],
 input[type="email"]{
     display: inline-block;
-    width: 49%;
+    width: 48%;
     margin-bottom: 30px;
+    margin-right: 2px;
 }
 
 .form textarea{
-
     width: 100%;
     margin-bottom: 15px;
+    margin-right: 2px;
 }
 
 input[type="submit"]{
@@ -191,4 +189,12 @@ footer{
     font-size: 25pt;
     margin: 10px 40px 10px 40px;
     color: #A5C5E9;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: white;
+    }
 }
